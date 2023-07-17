@@ -1,0 +1,12 @@
+.botonnn::after {
+    content: 'pasa por encima';
+}
+
+.botonnn:hover {
+    background-color: greenyellow;
+    color: white;
+}
+
+.botonnn:hover::after {
+    content: 'hecho';
+}
